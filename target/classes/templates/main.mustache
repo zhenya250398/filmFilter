@@ -1,0 +1,34 @@
+<html>
+
+<body>
+    <div>Список фильмов</div>
+    <div>По всем словам названия</div>
+    <form method="post" action="filterByFull">
+        <input type="text" name="filterByFull">
+        <button type="submit">Найти</button>
+    </form>
+    <div>По одному из слов названия фильма</div>
+    <form method="post" action="filterByWord">
+            <input type="text" name="filterByWord">
+            <button type="submit">Найти</button>
+        </form>
+    <div>По частичным словам из названия фильма</div>
+    <form method="post" action="filterByWords">
+            <input type="text" name="filterByWords">
+            <button type="submit">Найти</button>
+        </form>
+    <div>По году и названию</div>
+    <form method="post" action="filterByWordsYear">
+            <input type="text" name="filterByWord">
+            <input type="text" name="filterByYear">
+            <button type="submit">Найти</button>
+        </form>
+    {{#messages}}
+    <div>
+        <b>{{id}}</b>
+        <span>{{year}}</span>
+        <i>{{name}}</i>
+    </div>
+    {{/messages}}
+</body>
+</html>
