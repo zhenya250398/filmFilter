@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-public interface MessageRepo extends JpaRepository<Movie, Long>, QueryDslPredicateExecutor<Movie>{
+public interface MessageRepo extends JpaRepository<Movie, Long>{
 
     List<Movie> findByNameContaining(String name);
     List<Movie> findByName(String name);
