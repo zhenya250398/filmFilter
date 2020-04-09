@@ -1,10 +1,8 @@
 package com.example.sweater;
 
 import com.example.sweater.domain.Movie;
-import com.example.sweater.domain.QMovie;
 import com.example.sweater.repos.MessageRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Predicate;
 
 @Controller
 public class GreetingController {
