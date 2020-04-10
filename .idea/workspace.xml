@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="filmFilter:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2d4ea3e-c0ae-4bbd-a922-56ebc2763514" name="Default Changelist" comment="">
+    <list default="true" id="d2d4ea3e-c0ae-4bbd-a922-56ebc2763514" name="Default Changelist" comment="for heroku dynamic search">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/filmFilter_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/filmFilter_jar/filmFilter.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/repos/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/repos/MessageRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="build_jar" />
+        <entry key="$PROJECT_DIR$" value="for_heroku" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,13 +35,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZAk4WiV2Lov55mmY0FJyTSkfLA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -43,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
@@ -73,7 +84,8 @@
       <workItem from="1584892754827" duration="173000" />
       <workItem from="1584893141565" duration="7085000" />
       <workItem from="1584900933474" duration="2384000" />
-      <workItem from="1586518424067" duration="9425000" />
+      <workItem from="1586518424067" duration="14458000" />
+      <workItem from="1586547718621" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1584894565944</created>
@@ -131,29 +143,42 @@
       <option name="project" value="LOCAL" />
       <updated>1586526579355</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="for heroku dynamic search">
+      <created>1586535499085</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586535499085</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="start" />
     <MESSAGE value="for heroku" />
     <MESSAGE value="for heroku add package plugin" />
     <MESSAGE value="for heroku 2 words search" />
     <MESSAGE value="for heroku limit 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="for heroku limit 10" />
+    <MESSAGE value="for heroku dynamic search" />
+    <option name="LAST_COMMIT_MESSAGE" value="for heroku dynamic search" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1584290959551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584290959551" />
-    <state x="616" y="149" width="749" height="786" key="CommitChangelistDialog2" timestamp="1586526578776">
+    <state x="711" y="371" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586545496294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="149" width="749" height="786" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586526578776" />
+    <state x="711" y="371" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586545496294" />
+    <state x="616" y="149" width="749" height="786" key="CommitChangelistDialog2" timestamp="1586545195645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="149" width="749" height="786" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586545195645" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584898616149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -166,50 +191,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="645" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584894440496" />
-    <state width="1877" height="258" key="GridCell.Tab.0.bottom" timestamp="1586535368634">
+    <state width="1877" height="258" key="GridCell.Tab.0.bottom" timestamp="1586547319895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586535368634" />
-    <state width="1877" height="258" key="GridCell.Tab.0.center" timestamp="1586535368633">
+    <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319895" />
+    <state width="1877" height="258" key="GridCell.Tab.0.center" timestamp="1586547319894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586535368633" />
-    <state width="1877" height="258" key="GridCell.Tab.0.left" timestamp="1586535368633">
+    <state width="1877" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319894" />
+    <state width="1877" height="258" key="GridCell.Tab.0.left" timestamp="1586547319894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586535368633" />
-    <state width="1877" height="258" key="GridCell.Tab.0.right" timestamp="1586535368634">
+    <state width="1877" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319894" />
+    <state width="1877" height="258" key="GridCell.Tab.0.right" timestamp="1586547319894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586535368634" />
-    <state width="1877" height="258" key="GridCell.Tab.1.bottom" timestamp="1586535368634">
+    <state width="1877" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319894" />
+    <state width="1877" height="258" key="GridCell.Tab.1.bottom" timestamp="1586547319895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586535368634" />
-    <state width="1877" height="258" key="GridCell.Tab.1.center" timestamp="1586535368634">
+    <state width="1877" height="258" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319895" />
+    <state width="1877" height="258" key="GridCell.Tab.1.center" timestamp="1586547319895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586535368634" />
-    <state width="1877" height="258" key="GridCell.Tab.1.left" timestamp="1586535368634">
+    <state width="1877" height="258" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319895" />
+    <state width="1877" height="258" key="GridCell.Tab.1.left" timestamp="1586547319895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586535368634" />
-    <state width="1877" height="258" key="GridCell.Tab.1.right" timestamp="1586535368634">
+    <state width="1877" height="258" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319895" />
+    <state width="1877" height="258" key="GridCell.Tab.1.right" timestamp="1586547319895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586535368634" />
+    <state width="1877" height="258" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319895" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1584900693517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584900693517" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1584894101942">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1586545525001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584894101942" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586526581523">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586545525001" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586535500945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586526581523" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586535500945" />
     <state x="741" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1584291618039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
