@@ -9,7 +9,7 @@ public interface MessageRepo extends JpaRepository<Movie, Long>{
 
     List<Movie> findByNameContaining(String name);
     List<Movie> findByName(String name);
-    List<Movie> findByNameContaining(List<String> names);
+    List<Movie> findByNameContainingAndNameContaining(String name,String name2);
     List<Movie> findByNameContainingAndYear (String name, int year);
 
 }

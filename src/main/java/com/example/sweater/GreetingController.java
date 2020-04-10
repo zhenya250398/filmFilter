@@ -55,14 +55,9 @@ public class GreetingController {
     @PostMapping("filterByWords")
     public String filterByWords(@RequestParam String filterByWords1,String filterByWords2, Map<String, Object> model) {
         Iterable<Movie> messages;
-        List<String> filterByWords = new ArrayList<>();
-        filterByWords.add(filterByWords1);
-        filterByWords.add(filterByWords2);
-//        QMovie qMovie = QMovie.movie;
-//        Predicate testQuery = (Predicate) qMovie.name.contains(filterByWords1);
-//        messages = messageRepo.findAll((Pageable) testQuery);
-        if (filterByWords1 != null && !filterByWords1.isEmpty()) {
-            messages = messageRepo.findByNameContaining(filterByWords);
+
+        if (filterByWords1 != null && !filterByWords1.isEmpty() && filterByWords2 != null && !filterByWords2.isEmpty()) {
+            messages = messageRepo.findByNameContainingAndNameContaining(filterByWords1,filterByWords2);
         } else {
             messages = messageRepo.findAll();
         }
