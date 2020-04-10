@@ -14,8 +14,8 @@ public interface MessageRepo extends JpaRepository<Movie, Long>{
     List<Movie> findByNameContaining(String name);
     @Query(value = "SELECT * FROM Movie where name = ?1 limit 10", nativeQuery = true)
     List<Movie> findByName(String name);
-    @Query(value = "SELECT * FROM Movie where name like %?1% and name like %?2% limit 10", nativeQuery = true)
-    List<Movie> findByNameContainingAndNameContaining(String name,String name2);
+    @Query(value = "SELECT *  from movie where (select to_tsvector(name) @@ plainto_tsquery(?1)) limit 10", nativeQuery = true)
+    List<Movie> findByNameContainingAndNameContaining(String name);
     @Query(value = "SELECT * FROM Movie where name like %?1% and year = ?2 limit 10", nativeQuery = true)
     List<Movie> findByNameContainingAndYear (String name, int year);
 

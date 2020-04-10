@@ -53,11 +53,11 @@ public class GreetingController {
     }
 
     @PostMapping("filterByWords")
-    public String filterByWords(@RequestParam String filterByWords1,String filterByWords2, Map<String, Object> model) {
+    public String filterByWords(@RequestParam String filterByWords, Map<String, Object> model) {
         Iterable<Movie> messages;
 
-        if (filterByWords1 != null && !filterByWords1.isEmpty() && filterByWords2 != null && !filterByWords2.isEmpty()) {
-            messages = messageRepo.findByNameContainingAndNameContaining(filterByWords1,filterByWords2);
+        if (filterByWords != null && !filterByWords.isEmpty()) {
+            messages = messageRepo.findByNameContainingAndNameContaining(filterByWords);
         } else {
             messages = messageRepo.findAllWithLimit();
         }
