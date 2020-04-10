@@ -29,7 +29,7 @@ public class GreetingController {
         if (filterByFull != null && !filterByFull.isEmpty()) {
             messages = messageRepo.findByName(filterByFull);
         } else {
-            messages = messageRepo.findAll();
+            messages = messageRepo.findAllWithLimit();
         }
 
         model.put("messages", messages);
@@ -44,7 +44,7 @@ public class GreetingController {
         if (filterByWord != null && !filterByWord.isEmpty()) {
             messages = messageRepo.findByNameContaining(filterByWord);
         } else {
-            messages = messageRepo.findAll();
+            messages = messageRepo.findAllWithLimit();
         }
 
         model.put("messages", messages);
@@ -59,7 +59,7 @@ public class GreetingController {
         if (filterByWords1 != null && !filterByWords1.isEmpty() && filterByWords2 != null && !filterByWords2.isEmpty()) {
             messages = messageRepo.findByNameContainingAndNameContaining(filterByWords1,filterByWords2);
         } else {
-            messages = messageRepo.findAll();
+            messages = messageRepo.findAllWithLimit();
         }
 
         model.put("messages", messages);
@@ -74,7 +74,7 @@ public class GreetingController {
         if (filterByWord != null && !filterByWord.isEmpty()) {
             messages = messageRepo.findByNameContainingAndYear(filterByWord,filterByYear);
         } else {
-            messages = messageRepo.findAll();
+            messages = messageRepo.findAllWithLimit();
         }
 
         model.put("messages", messages);
