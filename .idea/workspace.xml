@@ -7,6 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d4ea3e-c0ae-4bbd-a922-56ebc2763514" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/filmFilter-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/filmFilter-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
@@ -82,7 +84,7 @@
       <workItem from="1584900933474" duration="2384000" />
       <workItem from="1586518424067" duration="14458000" />
       <workItem from="1586547718621" duration="672000" />
-      <workItem from="1586548907740" duration="1877000" />
+      <workItem from="1586548907740" duration="9642000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1584894565944</created>
@@ -161,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586550797657</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="for docker with external db change port to 5433">
+      <created>1586551386835</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586551386835</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,10 +197,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="371" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586545496294" />
-    <state x="616" y="149" width="749" height="786" key="CommitChangelistDialog2" timestamp="1586551378125">
+    <state x="616" y="149" width="749" height="786" key="CommitChangelistDialog2" timestamp="1586551385988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="149" width="749" height="786" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586551378125" />
+    <state x="616" y="149" width="749" height="786" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586551385988" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584898616149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -244,10 +253,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586545525001" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586550799655">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586551390772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586550799655" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586551390772" />
     <state x="741" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1584291618039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
