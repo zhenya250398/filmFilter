@@ -1,12 +1,12 @@
-package com.example.sweater.repos;
+package com.example.FilmFilter.repos;
 
-import com.example.sweater.domain.Movie;
+import com.example.FilmFilter.domain.Movie;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-public interface MessageRepo extends JpaRepository<Movie, Long>{
+public interface FilmRepo extends JpaRepository<Movie, Long>{
 
     @Query(value = "SELECT * FROM Movie limit 10", nativeQuery = true)
     List<Movie> findAllWithLimit();

@@ -5,12 +5,41 @@
       <artifact name="filmFilter:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d4ea3e-c0ae-4bbd-a922-56ebc2763514" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FilmFilter/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FilmFilter/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/domain/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FilmFilter/domain/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/repos/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/FilmFilter/repos/FilmRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/filmFilter-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/filmFilter-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweater/domain/Movie.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +55,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ZAk4WiV2Lov55mmY0FJyTSkfLA" />
@@ -38,7 +67,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -58,14 +86,26 @@
     <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="filmFilter" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.sweater.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.FilmFilter.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -85,6 +125,7 @@
       <workItem from="1586518424067" duration="14458000" />
       <workItem from="1586547718621" duration="672000" />
       <workItem from="1586548907740" duration="9642000" />
+      <workItem from="1599490034490" duration="2312000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1584894565944</created>
@@ -174,7 +215,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -189,85 +242,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="for docker with external db change port to 5433" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Project_Structure" timestamp="1584290959551">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599492680222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584290959551" />
-    <state x="711" y="371" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586545496294">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599492680222" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599492680222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="711" y="371" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586545496294" />
-    <state x="616" y="149" width="749" height="786" key="CommitChangelistDialog2" timestamp="1586551385988">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599492680222" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599492680222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="149" width="749" height="786" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586551385988" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584898616149">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599492680222" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599492680222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584898616149" />
-    <state x="830" y="413" key="Github.ShareDialog" timestamp="1584894410389">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599492680222" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1599492680223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="830" y="413" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584894410389" />
-    <state x="645" y="225" key="Github.UntrackedFilesDialog" timestamp="1584894440496">
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599492680223" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1599492680223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584894440496" />
-    <state width="1877" height="258" key="GridCell.Tab.0.bottom" timestamp="1586547319895">
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599492680223" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1599492680222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319895" />
-    <state width="1877" height="258" key="GridCell.Tab.0.center" timestamp="1586547319894">
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599492680222" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1599492680223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319894" />
-    <state width="1877" height="258" key="GridCell.Tab.0.left" timestamp="1586547319894">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319894" />
-    <state width="1877" height="258" key="GridCell.Tab.0.right" timestamp="1586547319894">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319894" />
-    <state width="1877" height="258" key="GridCell.Tab.1.bottom" timestamp="1586547319895">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="258" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319895" />
-    <state width="1877" height="258" key="GridCell.Tab.1.center" timestamp="1586547319895">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="258" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319895" />
-    <state width="1877" height="258" key="GridCell.Tab.1.left" timestamp="1586547319895">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="258" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319895" />
-    <state width="1877" height="258" key="GridCell.Tab.1.right" timestamp="1586547319895">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="258" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586547319895" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1584900693517">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584900693517" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1586545525001">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586545525001" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586551390772">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1586551390772" />
-    <state x="741" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1584291618039">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="741" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584291618039" />
-    <state x="765" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1584893894482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="384" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584893894482" />
-    <state x="342" y="140" key="new project wizard" timestamp="1584898623260">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1584898623260" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599492680223" />
   </component>
 </project>

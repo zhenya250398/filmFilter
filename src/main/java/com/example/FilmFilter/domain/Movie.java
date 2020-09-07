@@ -1,4 +1,4 @@
-package com.example.sweater.domain;
+package com.example.FilmFilter.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

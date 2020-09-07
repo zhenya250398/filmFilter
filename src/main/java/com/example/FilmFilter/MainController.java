@@ -1,24 +1,22 @@
-package com.example.sweater;
+package com.example.FilmFilter;
 
-import com.example.sweater.domain.Movie;
-import com.example.sweater.repos.MessageRepo;
+import com.example.FilmFilter.domain.Movie;
+import com.example.FilmFilter.repos.FilmRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 @Controller
-public class GreetingController {
+public class MainController {
     @Autowired
-    private MessageRepo messageRepo;
+    private FilmRepo filmRepo;
 
     @GetMapping
-    public String main(Map<String, Object> model) {
+    public String main() {
         return "main";
     }
 
@@ -27,9 +25,9 @@ public class GreetingController {
         Iterable<Movie> messages;
 
         if (filterByFull != null && !filterByFull.isEmpty()) {
-            messages = messageRepo.findByName(filterByFull);
+            messages = filmRepo.findByName(filterByFull);
         } else {
-            messages = messageRepo.findAllWithLimit();
+            messages = filmRepo.findAllWithLimit();
         }
 
         model.put("messages", messages);
@@ -42,9 +40,9 @@ public class GreetingController {
         Iterable<Movie> messages;
 
         if (filterByWord != null && !filterByWord.isEmpty()) {
-            messages = messageRepo.findByNameContaining(filterByWord);
+            messages = filmRepo.findByNameContaining(filterByWord);
         } else {
-            messages = messageRepo.findAllWithLimit();
+            messages = filmRepo.findAllWithLimit();
         }
 
         model.put("messages", messages);
@@ -57,9 +55,9 @@ public class GreetingController {
         Iterable<Movie> messages;
 
         if (filterByWords != null && !filterByWords.isEmpty()) {
-            messages = messageRepo.findByNameContainingAndNameContaining(filterByWords);
+            messages = filmRepo.findByNameContainingAndNameContaining(filterByWords);
         } else {
-            messages = messageRepo.findAllWithLimit();
+            messages = filmRepo.findAllWithLimit();
         }
 
         model.put("messages", messages);
@@ -72,9 +70,9 @@ public class GreetingController {
         Iterable<Movie> messages;
 
         if (filterByWord != null && !filterByWord.isEmpty()) {
-            messages = messageRepo.findByNameContainingAndYear(filterByWord,filterByYear);
+            messages = filmRepo.findByNameContainingAndYear(filterByWord,filterByYear);
         } else {
-            messages = messageRepo.findAllWithLimit();
+            messages = filmRepo.findAllWithLimit();
         }
 
         model.put("messages", messages);
