@@ -12,8 +12,11 @@ import java.util.Map;
 
 @Controller
 public class MainController {
-    @Autowired
-    private FilmRepo filmRepo;
+    private final FilmRepo filmRepo;
+
+    public MainController(FilmRepo filmRepo) {
+        this.filmRepo = filmRepo;
+    }
 
     @GetMapping
     public String main() {
